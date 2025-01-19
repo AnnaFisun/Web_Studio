@@ -107,3 +107,23 @@ footer .logo {
   font-size: 14px;
   color: white;
 }
+
+.container {
+  margin: 0 auto;
+  width: 1170px;
+}
+
+.header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.first {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
