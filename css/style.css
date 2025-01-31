@@ -16,6 +16,7 @@ body {
 .container {
   margin: 0 auto;
   width: 1170px;
+  padding:0 15px;
 }
 
 .first {
@@ -27,6 +28,7 @@ body {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 26px;
+  padding-right: 93px;
 }
 
 .logo-part {
@@ -96,9 +98,10 @@ h1 {
   line-height: 136%;
   text-transform: uppercase;
   text-align: center;
+ 
 }
 
-button {
+.first-button {
   background-color: var(--second-color);
   color: white;
   font-weight: 700;
@@ -106,6 +109,10 @@ button {
   line-height: 187%;
   letter-spacing: 0.06em;
   text-align: center;
+  padding: 10px 32px;
+  margin: 0 auto;
+  display: block;
+  border: none;
 }
 
 .second-name {
@@ -168,7 +175,6 @@ button {
 }
 
 .third {
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -180,4 +186,42 @@ button {
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+ 
+}
+
+.header-list {
+  display: flex;
+  gap: 50px;
+}
+
+.second-list {
+  display: flex;
+  gap: 30px;
+}
+
+.third-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.header .address {
+  padding-left: 344px;
+  display: flex;
+  gap: 40px;
+}
+
+.fourth-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
 }
