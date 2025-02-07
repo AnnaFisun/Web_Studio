@@ -10,7 +10,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-  font-family: var(--font-family);
+  font-family:var(--font-family);
 }
 
 .container {
@@ -28,14 +28,12 @@ body {
   font-weight: 700;
   font-size: 26px;
   padding-right: 93px;
-  font-family: "Raleway";
 }
 
 .logo-part {
   color: var(--second-color);
   font-weight: 700;
   font-size: 26px;
-  font-family:"Raleway", serif;
 }
 
 .footer {
@@ -44,7 +42,6 @@ body {
 
 footer .logo {
   color: rgb(255, 255, 255);
-  font-family: var(--second-family);
   font-weight: 700;
   font-size: 26px;
 }
@@ -113,6 +110,7 @@ h1 {
   margin: 0 auto;
   display: block;
   border: none;
+  border-radius: 4px;
 }
 
 .second-name {

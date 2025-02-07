@@ -13,6 +13,10 @@ body {
   font-family: var(--font-family);
 }
 
+ul {
+  list-style-type: none;
+}
+
 a {
   text-decoration: none;
 }
@@ -26,6 +30,7 @@ address {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 26px;
+  padding-right: 93px;
 }
 
 .logo-part {
@@ -65,6 +70,8 @@ button {
   line-height: 162%;
   letter-spacing: 0.03em;
   text-align: center;
+  border: none;
+  border-radius: 4px;
 }
 
 button:hover {
@@ -74,6 +81,7 @@ button:hover {
   line-height: 162%;
   letter-spacing: 0.03em;
   text-align: center;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
 }
 
 .second-name {
@@ -81,6 +89,7 @@ button:hover {
   font-size: 18px;
   line-height: 200%;
   letter-spacing: 0.06em;
+  padding: 0px 24px 4px;
 }
 
 .second-description {
@@ -89,6 +98,7 @@ button:hover {
   color: var(--grey-color);
   line-height: 187%;
   letter-spacing: 0.03em;
+  padding: 0px 24px 20px;
 }
 
 footer {
@@ -124,7 +134,43 @@ footer .logo {
   padding-bottom: 94px;
 }
 
+.second {
+  padding-bottom: 94px;
+}
+
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.header-list {
+  display: flex;
+  gap: 50px;
+}
+
+.header .address {
+  padding-left: 344px;
+  display: flex;
+  gap: 40px;
+}
+
+.first-list {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.second-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.second-item {
+  border: 1px solid #eee;
 }
