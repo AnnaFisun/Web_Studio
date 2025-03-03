@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
 :root {
   --first-color: rgb(47, 48, 58);
   --second-color: rgb(33, 150, 243);
@@ -7,12 +9,13 @@
   --second-family: "Raleway", sans-serif;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
 body {
-  font-family:var(--font-family);
+  font-family: var(--font-family);
 }
-
+ul {
+  padding: 0;
+  margin: 0;
+}
 .container {
   margin: 0 auto;
   width: 1170px;
@@ -20,14 +23,19 @@ body {
 }
 
 .first {
-  background-color: var(--first-color);
+  background-image:url(../img/Img.webp) ;
+  background-repeat: no-repeat;
+}
+
+.bg-color {
+  background-color: rgba(47, 48, 58, 0.4);
 }
 
 .logo {
+  font-family: var(--second-family);
   color: rgb(0, 0, 0);
   font-weight: 700;
   font-size: 26px;
-  padding-right: 93px;
 }
 
 .logo-part {
@@ -95,7 +103,6 @@ h1 {
   line-height: 136%;
   text-transform: uppercase;
   text-align: center;
- 
 }
 
 .first-button {
@@ -148,6 +155,7 @@ h1 {
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .fourth-description {
@@ -155,6 +163,7 @@ h1 {
   letter-spacing: 0.03em;
   font-size: 16px;
   font-weight: 400;
+  text-align: center;
 }
 
 .first {
@@ -163,8 +172,8 @@ h1 {
 }
 
 .header {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .second {
@@ -179,6 +188,7 @@ h1 {
 .fourth {
   padding-top: 94px;
   padding-bottom: 94px;
+  background-color: #f5f4fa;
 }
 
 .footer {
@@ -189,7 +199,6 @@ h1 {
 .header .container {
   display: flex;
   align-items: center;
- 
 }
 
 .header-list {
@@ -211,9 +220,18 @@ h1 {
 ul {
   list-style-type: none;
 }
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 93px;
+}
 .header .address {
-  padding-left: 344px;
   display: flex;
   gap: 40px;
 }
@@ -222,4 +240,56 @@ ul {
   display: flex;
   gap: 30px;
   justify-content: center;
+}
+.second-item:nth-child(1)::before {
+  content: "";
+  background-image: url(../img/icons/antenna.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-position: center;
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
+}
+
+.second-item:nth-child(2)::before {
+  content: "";
+  background-image: url(../img/icons/clock.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-position: center;
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
+}
+
+.second-item:nth-child(3)::before {
+  content: "";
+  background-image: url(../img/icons/laptop.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-position: center;
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
+}
+
+.second-item:nth-child(4)::before {
+  content: "";
+  background-image: url(../img/icons/astronaut.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-position: center;
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
+}
+
+.fourth-item {
+  border-radius: 0 0 4px 4px;
+  width: 270px;
+  height: 368px;
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  background: #fff;
 }

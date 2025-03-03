@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;500;700;900&display=swap");
+
 :root {
   --first-color: rgb(47, 48, 58);
   --second-color: rgb(33, 150, 243);
@@ -6,8 +8,6 @@
   --font-family: "Roboto", sans-serif;
   --second-family: "Raleway", sans-serif;
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;500;700;900&display=swap");
 
 body {
   font-family: var(--font-family);
@@ -30,7 +30,6 @@ address {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 26px;
-  padding-right: 93px;
 }
 
 .logo-part {
@@ -82,6 +81,7 @@ button:hover {
   letter-spacing: 0.03em;
   text-align: center;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
+  color: white;
 }
 
 .second-name {
@@ -125,8 +125,8 @@ footer .logo {
 }
 
 .header {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .first {
@@ -146,6 +146,7 @@ footer .logo {
 .header .container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .header-list {
@@ -154,7 +155,6 @@ footer .logo {
 }
 
 .header .address {
-  padding-left: 344px;
   display: flex;
   gap: 40px;
 }
@@ -174,3 +174,18 @@ footer .logo {
 .second-item {
   border: 1px solid #eee;
 }
+
+.second-list {
+  display: grid;
+  grid-template-columns: 370px 370px 370px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 93px;}
