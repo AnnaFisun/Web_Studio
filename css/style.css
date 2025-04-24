@@ -19,11 +19,11 @@ ul {
 .container {
   margin: 0 auto;
   width: 1170px;
-  padding:0 15px;
+  padding: 0 15px;
 }
 
 .first {
-  background-image:url(../img/Img.webp) ;
+  background-image: url(../img/Img.webp);
   background-repeat: no-repeat;
 }
 
@@ -63,6 +63,9 @@ address {
   font-weight: 500;
   font-size: 14px;
   color: var(--grey-color);
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
 .address-link:hover {
@@ -70,6 +73,10 @@ address {
   font-weight: 500;
   font-size: 14px;
   color: var(--second-color);
+}
+
+.address-link:hover svg {
+  fill: var(--second-color);
 }
 
 .address-description {
@@ -156,6 +163,8 @@ h1 {
   font-weight: 500;
   letter-spacing: 0.03em;
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .fourth-description {
@@ -288,8 +297,103 @@ ul {
 .fourth-item {
   border-radius: 0 0 4px 4px;
   width: 270px;
-  height: 368px;
+  height: 428px;
   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
     0 1px 3px 0 rgba(0, 0, 0, 0.12);
   background: #fff;
+}
+
+.address-svg {
+  fill: #757575;
+}
+
+.fourth-div {
+  border-radius: 100%;
+  fill: #757575;
+}
+
+.fourth-svg {
+  padding: 12px;
+}
+.fourth-div:hover {
+  border-radius: 100%;
+  background-color: var(--second-color);
+  fill: #fff;
+}
+
+.fourth-images {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.clients-title {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+}
+
+.clients-div {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  fill: #757575;
+}
+
+.clients-svg {
+  padding: 16px 32px;
+}
+
+.clients-div:hover {
+  border: 1px solid var(--second-color);
+  border-radius: 4px;
+  fill: var(--second-color);
+}
+
+.footer-wrapper {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.footer .container {
+  display: flex;
+  gap: 70px;
+}
+
+.footer-title {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.footer-logo {
+  border-radius: 100%;
+  fill: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-logo:hover {
+  background-color: #2196f3;
+}
+
+.footer-svg {
+  padding: 12px;
 }
