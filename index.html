@@ -33,16 +33,18 @@
           </nav>
         </div>
         <address class="address">
-            <a href="mailto:info@devstudio.com" class="address-link">
-              <svg width="16" height="12" viewBox="0 0 43 32" class="address-svg">
-                <use href="./img/icons/symbol-defs.svg#icon-envelope"></use>
-              </svg>
-              info@devstudio.com</a>
-            <a href="tel:+38 0961111111" class="address-link">
-              <svg width="10" height="16" viewBox="0 0 10 16" class="address-svg">
-                <use href="./img/icons/symbol-defs.svg#icon-smartphone"></use>
-              </svg>
-              +38 096 111 11 11</a>
+          <a href="mailto:info@devstudio.com" class="address-link">
+            <svg width="16" height="12" viewBox="0 0 43 32" class="address-svg">
+              <use href="./img/icons/symbol-defs.svg#icon-envelope"></use>
+            </svg>
+            info@devstudio.com</a
+          >
+          <a href="tel:+38 0961111111" class="address-link">
+            <svg width="10" height="16" viewBox="0 0 10 16" class="address-svg">
+              <use href="./img/icons/symbol-defs.svg#icon-smartphone"></use>
+            </svg>
+            +38 096 111 11 11</a
+          >
         </address>
       </div>
     </header>
@@ -50,8 +52,11 @@
       <section class="first">
         <div class="bg-color"></div>
         <div class="container">
-          <h1 class="first-title">Ефективні рішення для <br> вашого бізнесу</h1>
-          <button class="first-button">Замовити послугу</button>
+          <h1 class="first-title" >
+            Ефективні рішення для <br />
+            вашого бізнесу
+          </h1>
+          <button class="first-button" data-open-modal>Замовити послугу</button>
         </div>
       </section>
       <section class="second">
@@ -90,174 +95,271 @@
       <section class="third">
         <div class="container">
           <h2 class="third-title">Чим ми займаємося</h2>
-        <ul class="third-list">
-          <li class="third-item">
-            <img
-              src="./img/box1.jpg"
-              alt="1"
-              width="370"
-              height="294"
-              class="third-photo"
-            />
-          </li>
-          <li class="third-item">
-            <img
-              src="./img/box 2.png"
-              alt="2"
-              width="370"
-              height="294"
-              class="third-photo"
-            />
-          </li>
-          <li class="third-item">
-            <img
-              src="./img/box3.png"
-              alt="3"
-              width="370"
-              height="294"
-              class="third-photo"
-            />
-          </li>
-        </ul>
+          <ul class="third-list">
+            <li class="third-item">
+              <img
+                src="./img/box1.jpg"
+                alt="1"
+                width="370"
+                height="294"
+                class="third-photo"
+              />
+              <div class="overlay">
+                <!--<p class="third-desc">Десктопні додатки</p>-->
+              </div>
+            </li>
+            <li class="third-item">
+              <img
+                src="./img/box 2.png"
+                alt="2"
+                width="370"
+                height="294"
+                class="third-photo"
+              />
+              <div class="overlay">
+                <!--<p class="third-desc">Мобільні додатки</p>-->
+              </div>
+            </li>
+            <li class="third-item">
+              <img
+                src="./img/box3.png"
+                alt="3"
+                width="370"
+                height="294"
+                class="third-photo"
+              />
+              <div class="overlay">
+                <!--<p class="third-desc">Дизайнерські рішення</p>-->
+              </div>
+            </li>
+          </ul>
         </div>
       </section>
       <section class="fourth">
         <div class="container">
           <h2 class="fourth-title">Наша команда</h2>
-        <ul class="fourth-list">
-          <li class="fourth-item">
-            <img
-              src="./img/img.jpg"
-              alt="1"
-              width="270"
-              height="260"
-              class="fourth-photo"
-            />
-            <h3 class="fourth-name">Ігор Дем'яненко</h3>
-            <p class="fourth-description">Product Designer</p>
-            <div class="fourth-images">
-              <div class="fourth-div">
-                <svg class="fourth-svg" width="20" height="20" viewBox="0 0 20 20">
-                  <use href="./img/icons/symbol-defs.svg#icon-instagram"></use>
-                </svg>
+          <ul class="fourth-list">
+            <li class="fourth-item">
+              <img
+                src="./img/img.jpg"
+                alt="1"
+                width="270"
+                height="260"
+                class="fourth-photo"
+              />
+              <h3 class="fourth-name">Ігор Дем'яненко</h3>
+              <p class="fourth-description">Product Designer</p>
+              <div class="fourth-images">
+                <div class="fourth-div">
+                  <svg
+                    class="fourth-svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                  >
+                    <use
+                      href="./img/icons/symbol-defs.svg#icon-instagram"
+                    ></use>
+                  </svg>
+                </div>
+                <div class="fourth-div">
+                  <svg
+                    class="fourth-svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                  >
+                    <use href="./img/icons/symbol-defs.svg#icon-twitter"></use>
+                  </svg>
+                </div>
+                <div class="fourth-div">
+                  <svg
+                    class="fourth-svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                  >
+                    <use href="./img/icons/symbol-defs.svg#icon-facebook"></use>
+                  </svg>
+                </div>
+                <div class="fourth-div">
+                  <svg
+                    class="fourth-svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                  >
+                    <use href="./img/icons/symbol-defs.svg#icon-linkedin"></use>
+                  </svg>
+                </div>
               </div>
-              <div class="fourth-div">
-                <svg class="fourth-svg" width="20" height="20" viewBox="0 0 20 20">
-                  <use href="./img/icons/symbol-defs.svg#icon-twitter"></use>
-                </svg>
+            </li>
+            <li class="fourth-item">
+              <img
+                src="./img/img (1).jpg"
+                alt="2"
+                width="270"
+                height="260"
+                class="fourth-photo"
+              />
+              <h3 class="fourth-name">Ольга Рєпіна</h3>
+              <p class="fourth-description">Frontend Developer</p>
+              <div class="fourth-images">
+                <div class="fourth-div">
+                  <svg
+                    class="fourth-svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                  >
+                    <use
+                      href="./img/icons/symbol-defs.svg#icon-instagram"
+                    ></use>
+                  </svg>
+                </div>
+                <div class="fourth-div">
+                  <svg
+                    class="fourth-svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                  >
+                    <use href="./img/icons/symbol-defs.svg#icon-twitter"></use>
+                  </svg>
+                </div>
+                <div class="fourth-div">
+                  <svg
+                    class="fourth-svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                  >
+                    <use href="./img/icons/symbol-defs.svg#icon-facebook"></use>
+                  </svg>
+                </div>
+                <div class="fourth-div">
+                  <svg
+                    class="fourth-svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                  >
+                    <use href="./img/icons/symbol-defs.svg#icon-linkedin"></use>
+                  </svg>
+                </div>
               </div>
-              <div class="fourth-div">
-                <svg class="fourth-svg" width="20" height="20" viewBox="0 0 20 20">
-                  <use href="./img/icons/symbol-defs.svg#icon-facebook"></use>
-                </svg>
+            </li>
+            <li class="fourth-item">
+              <img
+                src="./img/img (2).jpg"
+                alt="3"
+                width="270"
+                height="260"
+                class="fourth-photo"
+              />
+              <h3 class="fourth-name">Микола Тарасов</h3>
+              <p class="fourth-description">Marketing</p>
+              <div class="fourth-images">
+                <div class="fourth-div">
+                  <svg
+                    class="fourth-svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                  >
+                    <use
+                      href="./img/icons/symbol-defs.svg#icon-instagram"
+                    ></use>
+                  </svg>
+                </div>
+                <div class="fourth-div">
+                  <svg
+                    class="fourth-svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                  >
+                    <use href="./img/icons/symbol-defs.svg#icon-twitter"></use>
+                  </svg>
+                </div>
+                <div class="fourth-div">
+                  <svg
+                    class="fourth-svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                  >
+                    <use href="./img/icons/symbol-defs.svg#icon-facebook"></use>
+                  </svg>
+                </div>
+                <div class="fourth-div">
+                  <svg
+                    class="fourth-svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                  >
+                    <use href="./img/icons/symbol-defs.svg#icon-linkedin"></use>
+                  </svg>
+                </div>
               </div>
-              <div class="fourth-div">
-                <svg class="fourth-svg" width="20" height="20" viewBox="0 0 20 20">
-                  <use href="./img/icons/symbol-defs.svg#icon-linkedin"></use>
-                </svg>
+            </li>
+            <li class="fourth-item">
+              <img
+                src="./img/img (3).jpg"
+                alt="4"
+                width="270"
+                height="260"
+                class="fourth-photo"
+              />
+              <h3 class="fourth-name">Михайло Єрмаков</h3>
+              <p class="fourth-description">UI Designer</p>
+              <div class="fourth-images">
+                <div class="fourth-div">
+                  <svg
+                    class="fourth-svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                  >
+                    <use
+                      href="./img/icons/symbol-defs.svg#icon-instagram"
+                    ></use>
+                  </svg>
+                </div>
+                <div class="fourth-div">
+                  <svg
+                    class="fourth-svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                  >
+                    <use href="./img/icons/symbol-defs.svg#icon-twitter"></use>
+                  </svg>
+                </div>
+                <div class="fourth-div">
+                  <svg
+                    class="fourth-svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                  >
+                    <use href="./img/icons/symbol-defs.svg#icon-facebook"></use>
+                  </svg>
+                </div>
+                <div class="fourth-div">
+                  <svg
+                    class="fourth-svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                  >
+                    <use href="./img/icons/symbol-defs.svg#icon-linkedin"></use>
+                  </svg>
+                </div>
               </div>
-            </div>
-          </li>
-          <li class="fourth-item">
-            <img
-              src="./img/img (1).jpg"
-              alt="2"
-              width="270"
-              height="260"
-              class="fourth-photo"
-            />
-            <h3 class="fourth-name">Ольга Рєпіна</h3>
-            <p class="fourth-description">Frontend Developer</p>
-            <div class="fourth-images">
-              <div class="fourth-div">
-                <svg class="fourth-svg" width="20" height="20" viewBox="0 0 20 20">
-                  <use href="./img/icons/symbol-defs.svg#icon-instagram"></use>
-                </svg>
-              </div>
-              <div class="fourth-div">
-                <svg class="fourth-svg" width="20" height="20" viewBox="0 0 20 20">
-                  <use href="./img/icons/symbol-defs.svg#icon-twitter"></use>
-                </svg>
-              </div>
-              <div class="fourth-div">
-                <svg class="fourth-svg" width="20" height="20" viewBox="0 0 20 20">
-                  <use href="./img/icons/symbol-defs.svg#icon-facebook"></use>
-                </svg>
-              </div>
-              <div class="fourth-div">
-                <svg class="fourth-svg" width="20" height="20" viewBox="0 0 20 20">
-                  <use href="./img/icons/symbol-defs.svg#icon-linkedin"></use>
-                </svg>
-              </div>
-            </div>
-          </li>
-          <li class="fourth-item">
-            <img
-              src="./img/img (2).jpg"
-              alt="3"
-              width="270"
-              height="260"
-              class="fourth-photo"
-            />
-            <h3 class="fourth-name">Микола Тарасов</h3>
-            <p class="fourth-description">Marketing</p>
-            <div class="fourth-images">
-              <div class="fourth-div">
-                <svg class="fourth-svg" width="20" height="20" viewBox="0 0 20 20">
-                  <use href="./img/icons/symbol-defs.svg#icon-instagram"></use>
-                </svg>
-              </div>
-              <div class="fourth-div">
-                <svg class="fourth-svg" width="20" height="20" viewBox="0 0 20 20">
-                  <use href="./img/icons/symbol-defs.svg#icon-twitter"></use>
-                </svg>
-              </div>
-              <div class="fourth-div">
-                <svg class="fourth-svg" width="20" height="20" viewBox="0 0 20 20">
-                  <use href="./img/icons/symbol-defs.svg#icon-facebook"></use>
-                </svg>
-              </div>
-              <div class="fourth-div">
-                <svg class="fourth-svg" width="20" height="20" viewBox="0 0 20 20">
-                  <use href="./img/icons/symbol-defs.svg#icon-linkedin"></use>
-                </svg>
-              </div>
-            </div>
-          </li>
-          <li class="fourth-item">
-            <img
-              src="./img/img (3).jpg"
-              alt="4"
-              width="270"
-              height="260"
-              class="fourth-photo"
-            />
-            <h3 class="fourth-name">Михайло Єрмаков</h3>
-            <p class="fourth-description">UI Designer</p>
-            <div class="fourth-images">
-              <div class="fourth-div">
-                <svg class="fourth-svg" width="20" height="20" viewBox="0 0 20 20">
-                  <use href="./img/icons/symbol-defs.svg#icon-instagram"></use>
-                </svg>
-              </div>
-              <div class="fourth-div">
-                <svg class="fourth-svg" width="20" height="20" viewBox="0 0 20 20">
-                  <use href="./img/icons/symbol-defs.svg#icon-twitter"></use>
-                </svg>
-              </div>
-              <div class="fourth-div">
-                <svg class="fourth-svg" width="20" height="20" viewBox="0 0 20 20">
-                  <use href="./img/icons/symbol-defs.svg#icon-facebook"></use>
-                </svg>
-              </div>
-              <div class="fourth-div">
-                <svg class="fourth-svg" width="20" height="20" viewBox="0 0 20 20">
-                  <use href="./img/icons/symbol-defs.svg#icon-linkedin"></use>
-                </svg>
-              </div>
-            </div>
-          </li>
-        </ul>
+            </li>
+          </ul>
         </div>
       </section>
       <section class="clients">
@@ -265,42 +367,72 @@
         <ul class="clients-list">
           <li class="clients-item">
             <div class="clients-div">
-              <svg viewBox="0 0 57 32" width="106" height="60" class="clients-svg">
+              <svg
+                viewBox="0 0 57 32"
+                width="106"
+                height="60"
+                class="clients-svg"
+              >
                 <use href="./img/icons/symbol-defs.svg#icon-1"></use>
               </svg>
             </div>
           </li>
           <li class="clients-item">
             <div class="clients-div">
-              <svg viewBox="0 0 57 32" width="106" height="60" class="clients-svg">
+              <svg
+                viewBox="0 0 57 32"
+                width="106"
+                height="60"
+                class="clients-svg"
+              >
                 <use href="./img/icons/symbol-defs.svg#icon-2"></use>
               </svg>
             </div>
           </li>
           <li class="clients-item">
             <div class="clients-div">
-              <svg viewBox="0 0 57 32" width="106" height="60" class="clients-svg">
+              <svg
+                viewBox="0 0 57 32"
+                width="106"
+                height="60"
+                class="clients-svg"
+              >
                 <use href="./img/icons/symbol-defs.svg#icon-3"></use>
               </svg>
             </div>
           </li>
           <li class="clients-item">
             <div class="clients-div">
-              <svg viewBox="0 0 57 32" width="106" height="60" class="clients-svg">
+              <svg
+                viewBox="0 0 57 32"
+                width="106"
+                height="60"
+                class="clients-svg"
+              >
                 <use href="./img/icons/symbol-defs.svg#icon-4"></use>
               </svg>
             </div>
           </li>
           <li class="clients-item">
             <div class="clients-div">
-              <svg viewBox="0 0 57 32" width="106" height="60" class="clients-svg">
+              <svg
+                viewBox="0 0 57 32"
+                width="106"
+                height="60"
+                class="clients-svg"
+              >
                 <use href="./img/icons/symbol-defs.svg#icon-5"></use>
               </svg>
             </div>
           </li>
           <li class="clients-item">
             <div class="clients-div">
-              <svg viewBox="0 0 57 32" width="106" height="60" class="clients-svg">
+              <svg
+                viewBox="0 0 57 32"
+                width="106"
+                height="60"
+                class="clients-svg"
+              >
                 <use href="./img/icons/symbol-defs.svg#icon-6"></use>
               </svg>
             </div>
@@ -310,44 +442,119 @@
     </main>
     <footer class="footer">
       <div class="container">
-        
         <div class="footer-address">
           <a href="#" class="logo"><span class="logo-part">Web</span>Studio</a>
-        <address class="address">
-          <p class="address-description">м. Київ, пр-т Лесі Українки, 26</p>
-          <a href="mailto:info@devstudio.com" class="address-link"
-            >info@devstudio.com</a
-          >
-          <a href="tel:+380961111111" class="address-link">+38 096 111 11 11</a>
-        </address>
+          <address class="address">
+            <p class="address-description">м. Київ, пр-т Лесі Українки, 26</p>
+            <a href="mailto:info@devstudio.com" class="address-link"
+              >info@devstudio.com</a
+            >
+            <a href="tel:+380961111111" class="address-link"
+              >+38 096 111 11 11</a
+            >
+          </address>
         </div>
 
         <div class="footer-div">
           <h2 class="footer-title">приєднуйтесь</h2>
           <div class="footer-wrapper">
             <div class="footer-logo">
-            <svg class="footer-svg" width="20" height="20" viewBox="0 0 20 20">
-              <use href="./img/icons/symbol-defs.svg#icon-instagram"></use>
-            </svg>
-          </div>
-          <div class="footer-logo">
-            <svg class="footer-svg" width="20" height="20" viewBox="0 0 20 20">
-              <use href="./img/icons/symbol-defs.svg#icon-twitter"></use>
-            </svg>
-          </div>
-          <div class="footer-logo">
-            <svg class="footer-svg" width="20" height="20" viewBox="0 0 20 20">
-              <use href="./img/icons/symbol-defs.svg#icon-facebook"></use>
-            </svg>
-          </div>
-          <div class="footer-logo">
-            <svg class="footer-svg" width="20" height="20" viewBox="0 0 20 20">
-              <use href="./img/icons/symbol-defs.svg#icon-linkedin"></use>
-            </svg>
-          </div>
+              <svg
+                class="footer-svg"
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+              >
+                <use href="./img/icons/symbol-defs.svg#icon-instagram"></use>
+              </svg>
+            </div>
+            <div class="footer-logo">
+              <svg
+                class="footer-svg"
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+              >
+                <use href="./img/icons/symbol-defs.svg#icon-twitter"></use>
+              </svg>
+            </div>
+            <div class="footer-logo">
+              <svg
+                class="footer-svg"
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+              >
+                <use href="./img/icons/symbol-defs.svg#icon-facebook"></use>
+              </svg>
+            </div>
+            <div class="footer-logo">
+              <svg
+                class="footer-svg"
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+              >
+                <use href="./img/icons/symbol-defs.svg#icon-linkedin"></use>
+              </svg>
+            </div>
           </div>
         </div>
       </div>
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <h3 class="modal-title">Залиште свої дані, ми вам передзвонимо</h3>
+        <button class="modal-close-btn" data-modal-close>
+          <svg width="11" height="11" aria-label="close">
+            <use href="./img/icons/sprite.svg#icon-close"></use>
+          </svg>
+        </button>
+        <form class="modal-form">
+          <div class="modal-field">
+            <label for="name">Ім'я</label>
+            <div class="modal-svg">
+              <svg width="12" height="12">
+                <use href="./img/icons/sprite.svg#icon-user"></use>
+              </svg>
+              <input name="name" type="text" class="modal-input" required>
+            </div>
+          </div>
+         
+          <div class="modal-field">
+            <label for="tel">Телефон</label>
+            <div class="modal-svg">
+              <svg width="13" height="13">
+                <use href="./img/icons/sprite.svg#icon-tel"></use>
+              </svg>
+              <input name="tel" type="text" class="modal-input" required>
+            </div>
+          </div>
+          
+          <div class="modal-field">
+            <label for="email">Пошта</label>
+            <div class="modal-svg">
+              <svg width="15" height="12">
+                <use href="./img/icons/sprite.svg#icon-mail"></use>
+              </svg>
+              <input name="email" type="text" class="modal-input" required>
+            </div>
+          </div>
+         
+          <div class="modal-field">
+            <label for="textarea">Коментар</label>
+            <textarea name="textarea" class="modal-textarea" placeholder="Введіть текст"></textarea>
+          </div>
+
+          <div class="modal-checkbox">
+            <input type="checkbox" name="policy" class="checkbox">
+            <label for="policy">Погоджуюся з розсилкою та приймаю <a href="#" class="policy-a">Умови договору</a></label>
+          </div>
+        </form>
+        <button type="submit" class="modal-btn" data-modal-close>Відправити</button>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
   </body>
 </html>
